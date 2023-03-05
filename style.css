@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-flow: column;
+}
+
+#gameboard {
+    display: flex;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.beige {
+    background: rgb(227, 227, 199);
+}
+
+.brown {
+    background: rgb(96, 54, 54);
+}
+
+.highlight {
+    background: rgb(233, 102, 102);
+}
+
+.target {
+    border: solid 10px rgb(169, 56, 56);
+}
+
+#info {
+    height: 30px;
+}
+
+.shogi-piece {
+    height: 200px;
+    width: 200px;
+}
